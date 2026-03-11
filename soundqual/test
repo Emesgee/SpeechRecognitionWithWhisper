@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head data-suburl="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    
+    
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <meta name="referrer" content="no-referrer"/>
+    <meta name="_csrf" content="yurCoYEGdwY7KJ1A6WgSkde8gJQ6MTc3MzIyMTY2NDY1ODEwMjUxMA"/>
+    <meta name="_suburl" content=""/>
+    <meta name="_appversion" content="304cfc132c5c491b1abe88faada3480a248f484a" />
+    <meta name="_bareRepo" content=""/>
+
+    
+    
+  <script>(function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PGHTMDN');</script>
+
+    
+
+    
+    
+      
+    
+    
+  
+    <title>Sign In · DagsHub</title>
+    <meta name="description"
+          content="DagsHub is where people build machine learning projects. DagsHub helps AI teams build better models and manage their data effectively."/>
+  
+  
+  <meta property="og:url" content="https://dagshub.com/"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="DagsHub">
+  <meta property="og:title" content="DagsHub: The Home for Machine Learning Collaboration">
+  <meta property="og:description"
+        content="DagsHub is where people build machine learning projects. DagsHub helps AI teams build better models and manage their data effectively.">
+  <meta property="og:image" content="https://dagshub.com/img/open_graph/dagshub-logo.jpg"/>
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  
+  <meta property="twitter:site" content="@TheRealDagsHub">
+  <meta property="twitter:creator" content="@TheRealDagsHub">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="DagsHub: The Home for Machine Learning Collaboration">
+  <meta property="twitter:description"
+        content="DagsHub is where people build machine learning projects. DagsHub helps AI teams build better models and manage their data effectively.">
+  <meta property="twitter:image:src" content="https://dagshub.com/img/open_graph/dagshub-logo.jpg">
+  <meta property="twitter:image:width" content="1200">
+  <meta property="twitter:image:height" content="630">
+
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "DagsHub",
+        "url": "https://dagshub.com/",
+        "sameAs": [
+            "https://www.facebook.com/DagsHub/",
+            "https://twitter.com/TheRealDagsHub/",
+            "https://linkedin.com/company/dagshub/"
+        ],
+        "potentialAction": {
+        "@type": "SearchAction",
+        "description": "Search for data science projects on DagsHub.",
+        "target": "https://dagshub.com/explore/repos?q={search_term}",
+        "query-input": "required name=search_term"
+        }
+    }
+  </script>
+
+
+    
+
+    <link rel="shortcut icon" href="/img/favicon-black.svg"/>
+
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css"
+        integrity="sha512-3icgkoIO5qm2D4bGSUkPqeQ96LS8+ukJC7Eqhl1H5B2OJMEnFqLmNDxXVmtV/eq5M65tTDkUYS/Q0P4gvZv+yA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="/assets/octicons-4.3.0/octicons.min.css">
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <link rel="preload" href="/css/themes/default/assets/fonts/brand-icons.woff2" as="font"
+          type="font/woff2" crossorigin/>
+    <link rel="preload" href="/css/themes/default/assets/fonts/icons.woff2" as="font" type="font/woff2"
+          crossorigin/>
+    <link rel="preload" href="/assets/fontawesome-5.15.3/webfonts/fa-solid-900.woff2" as="font"
+          type="font/woff2" crossorigin/>
+
+    
+    <link rel="stylesheet" href="/css/semantic-2.4.2.min.css">
+
+    
+    <link rel="stylesheet" href="/css/build/dagshub.css?v=304cfc132c5c491b1abe88faada3480a248f484a">
+    <link rel="stylesheet" href="/css/gogs.css?v=304cfc132c5c491b1abe88faada3480a248f484a">
+
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Lato:300,400,700,900|Jaldi|Open+Sans&display=swap" rel="stylesheet">
+    
+
+    <noscript>
+      <style>
+        .dropdown:hover > .menu {
+          display: block;
+        }
+
+        .ui.secondary.menu .dropdown.item > .menu {
+          margin-top: 0;
+        }
+      </style>
+    </noscript>
+    <script src="/js/semantic-2.4.2.min.js"></script>
+
+    
+    
+      <link rel="stylesheet" href="/css/build/static_dagshub.css?v=304cfc132c5c491b1abe88faada3480a248f484a">
+      
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Fira Code:wght@300;400;500;600;700;900' rel='stylesheet'>
+      
+    
+
+    <meta name="theme-color" content="#103037">
+
+    
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+
+    
+  </head>
+  <body>
+
+    
+
+
+
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGHTMDN"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+
+
+
+
+<div class="ui tiny modal" id="contact-modal">
+  <i class="close icon"></i>
+  <div class="header">
+    Contact us
+  </div>
+  <form id="contact-form" class="ui form content" action="contact_form" method="post">
+    <input type="hidden" name="_csrf" value="yurCoYEGdwY7KJ1A6WgSkde8gJQ6MTc3MzIyMTY2NDY1ODEwMjUxMA">
+    <div class="required field">
+      <label for="user_name">Your email address</label>
+      <input name="email" type="email" value=""
+             placeholder="tony@stark-industries.com" required>
+    </div>
+    <div class="required field">
+      <label for="subject">Subject</label>
+      <input name="subject" value="Hi DagsHub, let's talk" placeholder="What would you like to talk about?" required>
+    </div>
+    <div class="required field">
+      <textarea class="autosize" name="body" rows="7" ></textarea>
+    </div>
+    
+      <script type="text/javascript">
+        var myRecaptchaListeners = {
+          callAllListeners: function(listeners) {
+            return () => listeners.forEach((f) => f());
+          },
+          successListeners: [],
+          expireListeners: [],
+        };
+        contactFormCaptchaCallback = myRecaptchaListeners.callAllListeners(myRecaptchaListeners.successListeners);
+        contactFormCaptchaExpired = myRecaptchaListeners.callAllListeners(myRecaptchaListeners.expireListeners);
+      </script>
+      <div class="g-recaptcha field"
+           data-sitekey="6Lf0Z7gUAAAAAKCsW1V-PqN58BcBNAUxe-oIU3nw"
+           data-callback="contactFormCaptchaCallback"
+           data-expired-callback="contactFormCaptchaExpired"></div>
+    
+    <input type="hidden" name="page"/>
+    <input type="hidden" name="referring_page"/>
+    <input type="hidden" name="referrer"/>
+    <button class="ui positive center aligned labeled icon button" id="send-contact-request-btn">
+      Send
+      <i class="checkmark icon"></i>
+    </button>
+    
+      <script type="text/javascript">
+        (function() {
+          const submitBtn = document.getElementById('send-contact-request-btn');
+          onExpire = () => submitBtn.style.display = 'none';
+          onExpire();
+          myRecaptchaListeners.successListeners.push(() => {
+            submitBtn.style.display = 'block';
+          });
+          myRecaptchaListeners.expireListeners.push(onExpire);
+        })();
+      </script>
+    
+    <div class="ui hidden dimmer inverted">
+      <div class="ui loader"></div>
+      <div class="ui hidden positive message">
+        <p>Thank you! We'll be in touch ASAP.</p>
+      </div>
+      <div class="ui hidden negative message">
+        <p>Something went wrong, please try again or contact us directly at <a
+                  href="mailto:contact@dagshub.com">contact@dagshub.com</a></p>
+      </div>
+    </div>
+  </form>
+  <script>
+    (function() {
+      const $contactModal = $('#contact-modal');
+      const $contactForm = $('#contact-form');
+      const $dimmer = $contactForm.find('.dimmer');
+      const $loader = $dimmer.find('.loader');
+      const $okMsg = $dimmer.find('.positive');
+      const $errorMsg = $dimmer.find('.negative');
+
+      $contactForm.find('input[name=page]').val(document.URL);
+      $contactForm.find('input[name=referring_page]').val(new URL(document.URL).searchParams.get('referring_page'));
+      $contactForm.find('input[name=referrer]').val(document.referrer);
+
+      
+      $contactModal.modal({
+        onShow: () => {
+          $dimmer.dimmer('hide');
+          $loader.transition('fade in', 0);
+          $okMsg.transition('fade out', 0);
+          $errorMsg.transition('fade out', 0);
+        }
+      });
+
+      $contactForm.submit((e) => {
+        e.preventDefault();
+
+        $dimmer.dimmer('show');
+
+        function hideModal() {
+          setTimeout(() => {
+            $contactModal.modal('hide');
+          }, 3000);
+        }
+
+        
+        const loaderToMessage = function(targetMsg = $okMsg, afterMsg = hideModal) {
+          $loader.transition('fade out');
+          targetMsg.transition('fade in');
+          if (afterMsg) afterMsg();
+        };
+
+        $.ajax({
+          url: $contactForm.attr('action'),
+          method: 'post',
+          data: $contactForm.serialize(),
+          success: () => loaderToMessage(),
+          error: e => {
+            console.error(e);
+            
+            loaderToMessage($errorMsg, null);
+          }
+        });
+        
+        
+        
+        
+      });
+    })();
+  </script>
+  
+  <div class="ui secondary segment">
+    Or if you want, you can join our community at <a href="https://discord.com/invite/9gU36Y6"
+                                                     class="ui basic discord icon"><i class="discord grey icon big"></i></a>
+  </div>
+  
+</div>
+
+
+
+    
+
+<link rel="stylesheet" href="/css/auth.css?v=304cfc132c5c491b1abe88faada3480a248f484a">
+<div class="user signin">
+  
+  <div class="item brand">
+  <a href="https://dagshub.com/">
+    <img width="176" height="50" alt="DAGsHub navbar logo" class="ui image" src="/img/favicon-detail-black-letters.svg">
+  </a>
+</div>
+
+
+
+  
+  <div class="ui middle page grid">
+    <div class="column">
+      <form class="ui form login-container" action="/user/login" method="post">
+        <h3 class="ui top attached header">
+          Sign In
+        </h3>
+        <div class="ui bottom attached segment padded">
+          <input type="hidden" name="_csrf" value="yurCoYEGdwY7KJ1A6WgSkde8gJQ6MTc3MzIyMTY2NDY1ODEwMjUxMA">
+          
+
+
+          
+<p class="sign-up-details">
+  By signing in or signing up to DAGsHub, you are agreeing to our
+  <a id="terms" href="/terms">terms of service</a>
+  and
+  <a id="privacy" href="/privacy">privacy policy</a>.
+</p>
+            
+          
+              <a class="ui fluid compact huge button social-login-btn" id="github-login-button" rel="nofollow" onclick="this.href = this.href + '&clicked=true'"
+   href="/user/oauth/github?redirect_to=%2fkinkusuma%2femo-db%2fsrc%2fmaster%2fdataset%2fwav%2f03a05Wb.wav">
+  <i id="github-logo" class="fab fa-github social-login-icon"></i>
+  <span class="social-login-text">Continue with GitHub</span>
+</a>
+          
+          
+            <div>
+  <a class="ui fluid compact huge button social-login-btn" id="google-login-button" rel="nofollow" onclick="this.href = this.href + '&clicked=true'"
+     href="/user/oauth/google?redirect_to=%2fkinkusuma%2femo-db%2fsrc%2fmaster%2fdataset%2fwav%2f03a05Wb.wav">
+    <img id="g-logo" src="/img/logos/g-logo.png" alt="google logo"/>
+    <div class="social-login-text">Continue with Google</div>
+  </a>
+</div>
+
+          
+          
+            <div class="ui horizontal divider">OR</div>
+          
+          <div class="required field ">
+            <label for="user_name">Username or email</label>
+            <input id="user_name" name="user_name" value="" autofocus placeholder="Username or email"
+                   required>
+          </div>
+          <div class="required field ">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" autocomplete="off" value=""
+                   placeholder="Password" required>
+          </div>
+          
+          <div class="field user-settings">
+            <input name="remember" type="hidden" value="true">
+            <a id="forget-password" href="/user/forget_password">Forgot password?</a>
+          </div>
+
+          <div class="field center aligned">
+            <label></label>
+            <button id="sign-in-button-form" class="ui green fluid button">Sign In</button>
+          </div>
+          
+            <div class="field center aligned">
+              <label></label>
+              <a id="sign-up-now" href="/user/sign_up?">Need an account? Sign up now.</a>
+            </div>
+          
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+<script src="/js/libs/emojify-1.1.0.min.js"></script>
+<script src="/js/libs/clipboard-1.5.9.min.js"></script>
+
+
+
+<script src="/js/gogs.js?v=304cfc132c5c491b1abe88faada3480a248f484a"></script>
+<script src="/js/dagshub.js?v=304cfc132c5c491b1abe88faada3480a248f484a"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
+
